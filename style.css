@@ -111,10 +111,20 @@ button{
 }
 
 .conteo{
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-family: "Great Vibes", cursive;
     color: white;
     margin-bottom: 3%;
+}
+
+section{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 table {
@@ -125,24 +135,33 @@ table {
 
 td {
     border: 3px solid #ffffff;
-    border-radius: 50%; 
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #c0fce5;
     width: 20%;
-    color: #ffffff;
-    padding: 0px;
-    font-size: 40px;
+    color: #000000;
+    padding: 5px;
+    padding-top: 20px;
+    font-size: 30px;
     text-align: center;
     justify-content: center;
 }
 
 
 th {
-    border-style: solid;
-    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:  #c0fce5; 
+    color: #000000;
     text-align: center;
     justify-content: center;
-    padding: 0px;
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: "Great Vibes", cursive;
 }
 
 .bienvenida{
@@ -161,7 +180,7 @@ th {
 }
 
 .bienvenida .card{
-    border: 5px ridge #d9d5f2;
+    border: 5px ridge #e2f2d5;
 }
 
 .bienvenida h5{
@@ -205,19 +224,19 @@ th {
 .tituloCronograma h2{
     font-size: 50px;
     font-family: "Great Vibes", cursive;
-    color: #000000;
+    color: #ffffff;
     margin-bottom: 5%;
 }
 
 .tituloCronograma p{
-    color: #000000;
+    color: #ffffff;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 5%;
 }
 
 .tituloCronograma svg{
-    color: #000000;
+    color: #ffffff;
     width: 50px;
     height: 50px;
 }
@@ -516,7 +535,7 @@ th {
 }
 
 .hotel{
-    background-color: #d9d5f2;
+    background-color: #c0fce5;
 }
 
 .boton{
@@ -603,7 +622,7 @@ th {
 }
 
 .tituloConfirmar h2{
-    color: #000000;
+    color: #ffffff;
     font-family: "Great Vibes", cursive;
     font-size: 40px;
 }
@@ -611,7 +630,7 @@ th {
 .tituloConfirmar p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    color: #000000;
+    color: #ffffff;
 }
 
 .tituloConfirmar{
